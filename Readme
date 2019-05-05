@@ -1,0 +1,27 @@
+Info of freemysql:
+
+https://www.freemysqlhosting.net/
+email: alfonsocanoit@gmail.com
+password: alfonso2018
+
+    Your account number is: 348500
+
+    Your new database is now ready to use.
+
+    To connect to your database use these details
+
+    Server: sql10.freemysqlhosting.net
+    Name: sql10290566
+    Username: sql10290566
+    Password: c7liqxbQXD 
+    Port number: 3306
+
+SQLAlchemy
+
+    -URI
+
+    mysql://sql10290566:c7liqxbQXD@sql10.freemysqlhosting.net/sql10290566
+
+Install MySql for python
+
+    1. sudo apt install libmysqlclient-dev
