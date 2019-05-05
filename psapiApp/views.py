@@ -10,11 +10,11 @@ import json
 def index():
     return render_template('index.html')
 
-@app.route('/test' , methods=['GET', 'POST'])
-def test():
-    x = controller.Queries().allAccount()
-    print(type(x))
-    return render_template('test.html', x=x)
+@app.route('/allAccountsApi' , methods=['GET', 'POST'])
+def allAccountsApi():
+    accsList = controller.Queries().allAccount()
+    print(type(accsList))
+    return render_template('allAccountsApi.html', accsList=accsList)
 
 #class Test(db.Model):
 #    id = db.Column(db.Integer, primary_key=True)

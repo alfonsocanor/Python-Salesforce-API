@@ -15,7 +15,7 @@ class Account(db.Model):
     Apellido = db.Column(db.String(20))
     email = db.Column(db.String(60), unique=True)
 
-db.create_all()
+#db.create_all()
 
 class CRUMAccount():
     def insertAccount(self, setDni, setNombre, setApellido, setEmail):
