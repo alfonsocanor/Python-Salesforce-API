@@ -12,9 +12,11 @@ def index():
 
 @app.route('/allAccountsApi' , methods=['GET', 'POST'])
 def allAccountsApi():
+    x=2
     accsList = controller.Queries().allAccount()
+    print(accsList)
     print(type(accsList))
-    return render_template('allAccountsApi.html', accsList=accsList)
+    return render_template('allAccountsApi.html', accsList=accsList, x=x)
 
 #class Test(db.Model):
 #    id = db.Column(db.Integer, primary_key=True)
